@@ -15,7 +15,6 @@ import UIKit
 class DebounceButton: UIButton {
 
     fileprivate var isDelayEvent = false
-    
     // 必须大于 0
     var delayDuration = Double(0)
     
